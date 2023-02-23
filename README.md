@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is a back end for an e-commerce site using Sequelize to interact with a MySQL database. Check out this [video](https://drive.google.com/file/d/1qi6dp7nd0x2Q0hXeTUTCzd-HTvnh_zfM/view) walkthrough to learn more about the application!
+This is a back-end template of CRUD routes for an e-commerce site using Node, Express, and Sequelize to interact with a MySQL database. 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,10 +15,10 @@ This is a back end for an e-commerce site using Sequelize to interact with a MyS
 - [Questions](#questions)
 
 ## Installation
-To create the database, use the schema in the db folder with MySQL shell commands. Then seed the data by running npm run seed in the command line. Lastly start the server by running npm start in the command line.
+To install the application locally, ensure that [Node.js](https://nodejs.org/en/download/) is installed, then clone the repository from Github. Connect a [MySQL workbench](https://www.mysql.com/products/workbench/) to the application through the config/connection.js file, then create the database in the workbench using the schema in the db folder. Seed the data by running the seed script ```npm run seed``` and finally start the server by running the start script ```npm run start```.
 
 ## Usage
-To explore the database, use a REST client such as Insomnia or Postman to view test and validate results.
+To explore the database, use a REST client such as Insomnia or Postman to view, test and validate CRUD routes. Check out this [video](https://drive.google.com/file/d/1qi6dp7nd0x2Q0hXeTUTCzd-HTvnh_zfM/view) walkthrough to learn more about the application!
 ![Screenshot of application](./public/images/e-commerce-db.png)
 
 ## Credits
@@ -29,7 +29,7 @@ Starter code provided by UCLA Coding Bootcamp
 This application is covered under the MIT license.
 
 ## Contributing
-N/A
+[Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)
 
 ## Tests
 N/A
